@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 200, 221);
+}
+
+#clock-wall {
+    height: 30vh;
+    width: 85vw;
+    margin: auto;
+    background-color: rgb(255, 200, 221);
+}
+
+.time {
+    height: 125px;
+    width: 125px;
+    display: inline-block;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.colon {
+    height: 125px;
+    width: 30px;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+#clock-wall p {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 250%;
+    background-color: rgb(255, 200, 221);
+    color: darkorange;
+}
+
+#hours {
+    margin-left: 23vw;
+    margin-top: 5vh;
+}
+
+#create-alarm {
+    width: 100%;
+    height: 25vh;
+    background-color: beige;
+}
+
+input {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin: 0px 20px;
+}
+
+select {
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+}
+
+#setHour {
+    margin-left: 35vw;
+    margin-top: 8vh;
+}
+
+#alarm-list {
+    width: 100%;
+    height: 45vh;
+    background-color: aquamarine;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    line-height: 300%;
+    padding-left: 200px;
+}
+
+
+
+li button {
+    margin-left: 7em;
+}
+
+
+p.next-second {
+    position: absolute;
+    top: 100px;
+}
+
+p.next-minute {
+    position: absolute;
+    top: 100px;
+}
+
+p.next-hour {
+    position: absolute;
+    top: 100px;
+}
+
+p.animate {
+    transition: all 0.5s;
+    top: 0px;
+}
+
+button {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    color: orangered;
+    font-size: 25px;
+    word-spacing: 3px;
+}

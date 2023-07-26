@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Set Your Alarms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="clock-wall">
+        <div id="hours" class="time">
+            <p class="current-hour">00</p>
+            <p class="next-hour"></p>
+        </div>
+        <div class="colon">
+            <p>:</p>
+        </div>
+        <div class="time">
+            <p class="current-minute">00</p>
+            <p class="next-minute"></p>
+        </div>
+        <div class="colon">
+            <p>:</p>
+        </div>
+        <div class="time">
+            <p class="current-second">00</p>
+            <p class="next-second"></p>
+        </div>
+        <div id="am-pm" class="time">
+            <p class="am-pm">AM</p>
+        </div>
+    </div>
+    <div id="create-alarm">
+        <form>
+            <input type="number" id="setHour" name="setHour" min="0" max="12">
+            <input type="number" id="setMinute" name="setMinute" min="0" max="60">
+            <input type="number" id="setSecond" name="setSecond" min="0" max="60">
+            <select id="am-pm-toggle">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+            <button type="button" id="set-alarm">Set Alarm</button>
+        </form>
+    </div>
+    <div id="alarm-list">
+        <h1>Alarms</h1>
+        <ul id="list">
+            <!--            <li>
+                <span>12:00:00 AM</span>
+                <button type="button">Delete Alarm</button>
+            </li>-->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
